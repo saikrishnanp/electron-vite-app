@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.custom-ag-grid .ag-header {
+  display: none;
+}
+
+.ag-row {
+  display: flex;
+}
+
+.ag-cell {
+  flex-grow: 1; /* Allow cells to expand as needed */
+  width: auto !important; /* Ensure cells expand */
+  min-width: fit-content;
+}

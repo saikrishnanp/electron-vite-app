@@ -1,0 +1,233 @@
+.editorContainer {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 1200px;
+}
+
+.sectionTableContainer { 
+  height: 300px;
+  width: 100%;
+}
+
+.sectionTable {
+  height: 300px;
+  width: 100%;
+}
+
+h3, ul {
+  text-align: left;
+}
+
+.sectionBox {
+  color: #ffffff;
+}
+
+.textFieldCont {
+  width: fit-content;
+  border: 1px solid #9b9a9a;
+  border-radius: 4px;
+}
+
+.textField {
+  min-width: 30px;
+  field-sizing: content;
+  padding: 0 8px;
+}
+
+.textField:focus {
+  outline: none;
+  border-color: #3f51b5;
+  box-shadow: 0 0 0 2px rgba(63, 81, 181, 0.2);
+}
+
+.textField.edit {
+  border: none;
+}
+
+.textField.edit:active {
+  border: none;
+  outline: none;
+}
+
+.selectField {
+  max-width: 150px;
+}
+
+.sectionDescription {
+  text-align: left;
+}
+
+ul {
+  margin-left: 20px;
+  list-style-type: circle;
+}
+
+.deleteButton, .duplicateButton {
+  visibility: hidden !important;
+}
+
+.row:hover .deleteButton, .row:hover .duplicateButton {
+    visibility: visible !important;
+  }
+
+.container {
+  position: relative;
+  /* width: 100%; */
+  min-height: 10px;
+  background-color: #434b7a;
+}
+
+.container.fullScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.expandButton {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  z-index: 9999;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.expandButton svg {
+  width: 18px;
+  height: 18px;
+}
+
+
+/* tailwind css below */
+
+/* Equivalent CSS for Tailwind classes */
+
+/* .border */
+.border {
+  border-width: 1px;
+}
+
+/* .border-white */
+.border-white {
+  border-color: white;
+}
+
+/* .rounded-md */
+.rounded-md {
+  border-radius: 0.375rem; /* 6px */
+}
+
+/* .p-2 */
+.p-2 {
+  padding: 0.5rem; /* 8px */
+}
+
+/* .mb-2 */
+.mb-2 {
+  margin-bottom: 0.5rem; /* 8px */
+}
+
+/* .w-xl */
+.w-xl {
+  width: 36rem; /* 576px */
+}
+
+/* .w-full */
+.w-full {
+  width: 100%;
+}
+
+/* .flex */
+.flex {
+  display: flex;
+}
+
+/* .justify-between */
+.justify-between {
+  justify-content: space-between;
+}
+
+/* .items-center */
+.items-center {
+  align-items: center;
+}
+
+/* .sectionDescription */
+.sectionDescription {
+  /* Add any specific styles for this class if needed */
+}
+
+/* .p-1 */
+.p-1 {
+  padding: 0.25rem; /* 4px */
+}
+
+/* .rounded-sm */
+.rounded-sm {
+  border-radius: 0.125rem; /* 2px */
+}
+
+/* .overflow-y-auto */
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+/* .overflow-x-hidden */
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+/* .border-b */
+.border-b {
+  border-bottom-width: 1px;
+}
+
+/* .border-amber-600 */
+.border-amber-600 {
+  border-color: #d97706; /* Amber 600 */
+}
+
+/* .hidden */
+.hidden {
+  display: none;
+}
+
+/* .cursor-pointer */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* .w-1.5 */
+.w-1 {
+  width: 0.375rem; /* 6px */
+}
+
+/* .mr-1 */
+.mr-1 {
+  margin-right: 0.25rem; /* 4px */
+}
+
+/* .border-blue-700 */
+.border-blue-700 {
+  border-color: #1d4ed8; /* Blue 700 */
+}
+
+/* .rounded-lg */
+.rounded-lg {
+  border-radius: 0.5rem; /* 8px */
+}
+
+/* .flex.items-center */
+.flex.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.testPlanSection {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(156, 154, 154) transparent;
+}
