@@ -6,8 +6,8 @@
 
 // export default tseslint.config(
 //   { ignores: ["**/node_modules", "**/dist", "**/out"] },
-//   tseslint.configs.recommended,
-//   eslintPluginReact.configs.flat.recommended,
+//   // tseslint.configs.recommended,
+//   // eslintPluginReact.configs.flat.recommended,
 //   eslintPluginReact.configs.flat["jsx-runtime"],
 //   {
 //     settings: {
@@ -27,5 +27,5 @@
 //       ...eslintPluginReactRefresh.configs.vite.rules,
 //     },
 //   },
-//   eslintConfigPrettier,
+//   // eslintConfigPrettier,
 // );
